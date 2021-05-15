@@ -7,7 +7,7 @@ public class MoveAllZeroesToEnd {
 	public static void main(String[] args) {
 		int arr[] = {10,8,0,0,12,0};
 		moveZeroes(arr);
-		Arrays.stream(arr).forEach(System.out::println);
+		System.out.println(Arrays.toString(arr));
 	}
 	static void moveZeroes(int arr[]) {
 		int n = arr.length;
